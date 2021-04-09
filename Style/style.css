@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: aquamarine;
+  background-image: url("/Assets/watercolor.jpeg");
+  background-attachment: fixed;
 }
 
 nav {
@@ -64,7 +65,7 @@ h3 {
 .vertical {
   width: 600px;
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .logo {
