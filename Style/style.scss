@@ -2,9 +2,13 @@
   margin: 0px;
   padding: 0px;
 }
+body {
+  background-color: aquamarine;
+}
 
 //Imports
 @import "general";
 @import "nav";
 @import "horizontal";
+@import "vertical";
 @import "footer";

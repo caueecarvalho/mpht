@@ -1,33 +1,36 @@
 .horizontal {
   display: flex;
   justify-content: space-between;
-  height: 600px;
+  height: auto;
   position: relative;
 }
 
 .about,
 .appointment {
-  background-color: $color3;
+  background-color: $color2;
   width: 40px;
 }
 
 h2,
 h3 {
+  color: $color1;
   width: 150px;
-  height: 200px;
+  height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   position: fixed;
   top: 35%;
-  background-color: $color4;
+  background-color: $color2;
 }
 
 h2 {
   left: 0px;
+  border-radius: 0px 70px 70px 0px;
 }
 
 h3 {
   right: 0px;
+  border-radius: 70px 0px 0px 70px;
 }
