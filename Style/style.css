@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  width: auto;
+  height: 40px;
+  background-color: #60add1;
+}
+
+.horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 600px;
+  position: relative;
+}
+
+.about,
+.appointment {
+  background-color: #60add1;
+  width: 40px;
+}
+
+h2,
+h3 {
+  width: 150px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  position: fixed;
+  top: 35%;
+  background-color: #8d2386;
+}
+
+h2 {
+  left: 0px;
+}
+
+h3 {
+  right: 0px;
+}
+
+footer {
+  height: 60px;
+  background-color: #60add1;
+}
+/*# sourceMappingURL=style.css.map */
