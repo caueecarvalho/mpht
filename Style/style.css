@@ -35,7 +35,7 @@ h2,
 h3 {
   color: #fff;
   width: 150px;
-  height: 120px;
+  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,12 +54,12 @@ h3 {
 
 h2 {
   left: 0px;
-  border-radius: 0px 70px 70px 0px;
+  border-radius: 0px 90px 120px 0px;
 }
 
 h3 {
   right: 0px;
-  border-radius: 70px 0px 0px 70px;
+  border-radius: 160px 0px 0px 100px;
 }
 
 .vertical {

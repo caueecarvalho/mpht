@@ -4,3 +4,15 @@ $color1: #fff;
 $color2: #000;
 $color3: #60add1;
 $color4: #8d2364;
+
+//Fonts
+
+@mixin text1($size, $color) {
+  font: $size "Zilla Slab", serif;
+  color: $color;
+}
+
+@mixin text2($size, $color) {
+  font: $size "Zilla Slab Highlight", cursive;
+  color: $color;
+}
