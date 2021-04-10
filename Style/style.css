@@ -92,12 +92,65 @@ a:hover {
 }
 
 .aboutappointment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: fixed;
-  top: 65px;
-  right: 100px;
+  top: 120px;
+  right: 80px;
   width: 500px;
   padding: 0px 60px 60px 60px;
   display: none;
+}
+
+.info {
+  font: 18px "Rajdhani", sans-serif;
+  color: #272727;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  border-style: none;
+  border-radius: 60px 60px 140px 140px;
+}
+
+.submit {
+  font: 18px "Rajdhani", sans-serif;
+  color: #272727;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  padding: 10px 10px;
+  margin-bottom: 30px;
+  border-style: none;
+  border-radius: 60px 60px 140px 140px;
+}
+
+textarea {
+  font: 18px "Rajdhani", sans-serif;
+  color: #272727;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 400px;
+  height: 100px;
+  padding: 40px 10px;
+  margin-bottom: 40px;
+  border-style: none;
+  border-radius: 20px;
 }
 
 .appointment:hover {

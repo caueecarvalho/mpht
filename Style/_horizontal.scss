@@ -41,12 +41,49 @@
 }
 
 .aboutappointment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: fixed;
-  top: 65px;
-  right: 100px;
+  top: 120px;
+  right: 80px;
   width: 500px;
   padding: 0px 60px 60px 60px;
   display: none;
+}
+
+.info {
+  @include text1(18px, $color2);
+  text-align: center;
+  display: flex;
+  width: 400px;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  border-style: none;
+  border-radius: 60px 60px 140px 140px;
+}
+
+.submit {
+  @include text1(18px, $color2);
+  text-align: center;
+  display: flex;
+  width: 400px;
+  padding: 10px 10px;
+  margin-bottom: 30px;
+  border-style: none;
+  border-radius: 60px 60px 140px 140px;
+}
+
+textarea {
+  @include text1(18px, $color2);
+  text-align: center;
+  display: flex;
+  width: 400px;
+  height: 100px;
+  padding: 40px 10px;
+  margin-bottom: 40px;
+  border-style: none;
+  border-radius: 20px;
 }
 
 .appointment {
