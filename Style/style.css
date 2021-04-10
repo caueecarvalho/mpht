@@ -31,6 +31,14 @@ nav {
   width: 40px;
 }
 
+.about:hover {
+  width: 1000px;
+}
+
+.appointment:hover {
+  width: 1000px;
+}
+
 h2,
 h3 {
   font: 20px "Rajdhani", sans-serif;
@@ -64,7 +72,8 @@ h3 {
 }
 
 .vertical {
-  width: 600px;
+  width: 630px;
+  padding: 0px 50px;
   margin-top: 60px;
   margin-bottom: 80px;
 }

@@ -11,9 +11,22 @@
   width: 40px;
 }
 
+.about {
+  &:hover {
+    width: 1000px;
+  }
+}
+
+.appointment {
+  &:hover {
+    width: 1000px;
+  }
+}
+
 h2,
 h3 {
-  @include text1(20px, $color1) width: 150px;
+  @include text1(20px, $color1);
+  width: 150px;
   height: 200px;
   display: flex;
   flex-direction: column;
