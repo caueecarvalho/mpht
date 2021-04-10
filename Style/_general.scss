@@ -2,17 +2,12 @@
 
 $color1: #fff;
 $color2: #000;
-$color3: #60add1;
-$color4: #8d2364;
+$color3: #8eafcadc;
+$color4: #5b80a36b;
 
 //Fonts
 
 @mixin text1($size, $color) {
-  font: $size "Zilla Slab", serif;
-  color: $color;
-}
-
-@mixin text2($size, $color) {
-  font: $size "Zilla Slab Highlight", cursive;
+  font: $size "Rajdhani", sans-serif;
   color: $color;
 }

@@ -11,7 +11,7 @@ body {
 nav {
   width: auto;
   height: 40px;
-  background-color: #000;
+  background-color: #8eafcadc;
 }
 
 .horizontal {
@@ -27,12 +27,13 @@ nav {
 
 .about,
 .appointment {
-  background-color: #000;
+  background-color: #5b80a36b;
   width: 40px;
 }
 
 h2,
 h3 {
+  font: 20px "Rajdhani", sans-serif;
   color: #fff;
   width: 150px;
   height: 200px;
@@ -49,7 +50,7 @@ h3 {
   text-align: center;
   position: fixed;
   top: 35%;
-  background-color: #000;
+  background-color: #8eafcadc;
 }
 
 h2 {
@@ -70,23 +71,29 @@ h3 {
 
 .logo {
   width: 250px;
+  margin-left: 170px;
 }
 
 h1,
 h4,
 h5 {
+  font: 30px "Rajdhani", sans-serif;
+  color: #000;
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 20px;
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
 
 p {
-  margin-bottom: 20px;
+  font: 20px "Rajdhani", sans-serif;
+  color: #000;
+  margin-bottom: 30px;
+  text-align: justify;
 }
 
 footer {
   height: 60px;
-  background-color: #000;
+  background-color: #8eafcadc;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

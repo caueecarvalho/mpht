@@ -6,16 +6,20 @@
 
 .logo {
   width: 250px;
+  margin-left: 170px;
 }
 
 h1,
 h4,
 h5 {
+  @include text1(30px, $color2);
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 20px;
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
 
 p {
-  margin-bottom: 20px;
+  @include text1(20px, $color2);
+  margin-bottom: 30px;
+  text-align: justify;
 }

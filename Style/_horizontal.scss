@@ -7,14 +7,13 @@
 
 .about,
 .appointment {
-  background-color: $color2;
+  background-color: $color4;
   width: 40px;
 }
 
 h2,
 h3 {
-  color: $color1;
-  width: 150px;
+  @include text1(20px, $color1) width: 150px;
   height: 200px;
   display: flex;
   flex-direction: column;
@@ -22,7 +21,7 @@ h3 {
   text-align: center;
   position: fixed;
   top: 35%;
-  background-color: $color2;
+  background-color: $color3;
 }
 
 h2 {
