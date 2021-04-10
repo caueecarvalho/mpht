@@ -26,7 +26,7 @@
 }
 
 .little {
-  @include text1(18px, $color2);
+  @include text1(18px, $color1);
   margin-bottom: 30px;
   text-align: justify;
 }
@@ -70,6 +70,7 @@ h3 {
   position: fixed;
   top: 35%;
   background-color: $color3;
+  box-shadow: 0px 1px 7px -3px rgba(0, 0, 0, 0.75);
 }
 
 h2 {

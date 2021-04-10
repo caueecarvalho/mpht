@@ -11,7 +11,21 @@ body {
 nav {
   width: auto;
   height: 40px;
-  background-color: #8eafcac0;
+  background-color: #242d35c0;
+}
+
+.languages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60px;
+}
+
+a {
+  font: 20px "Rajdhani", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
 }
 
 .horizontal {
@@ -27,7 +41,7 @@ nav {
 
 .about,
 .appointment {
-  background-color: #5b80a36b;
+  background-color: #080d136b;
   width: 40px;
   position: relative;
 }
@@ -48,7 +62,7 @@ nav {
 
 .little {
   font: 18px "Rajdhani", sans-serif;
-  color: #000;
+  color: #fff;
   margin-bottom: 30px;
   text-align: justify;
 }
@@ -97,7 +111,9 @@ h3 {
   text-align: center;
   position: fixed;
   top: 35%;
-  background-color: #8eafcac0;
+  background-color: #242d35c0;
+  -webkit-box-shadow: 0px 1px 7px -3px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 1px 7px -3px rgba(0, 0, 0, 0.75);
 }
 
 h2 {
@@ -126,7 +142,7 @@ h1,
 h4,
 h5 {
   font: 30px "Rajdhani", sans-serif;
-  color: #000;
+  color: #272727;
   text-align: center;
   margin-top: 70px;
   margin-bottom: 30px;
@@ -134,14 +150,14 @@ h5 {
 
 p {
   font: 20px "Rajdhani", sans-serif;
-  color: #000;
+  color: #272727;
   margin-bottom: 30px;
   text-align: justify;
 }
 
 footer {
   height: 60px;
-  background-color: #8eafcac0;
+  background-color: #242d35c0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

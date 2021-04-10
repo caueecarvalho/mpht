@@ -3,3 +3,14 @@ nav {
   height: 40px;
   background-color: $color3;
 }
+
+.languages {
+  display: flex;
+  width: 60px;
+}
+
+a {
+  @include text1(20px, $color1);
+  text-decoration: none;
+  margin-left: 10px;
+}
