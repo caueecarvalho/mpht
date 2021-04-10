@@ -22,7 +22,12 @@
 }
 .marceloface {
   width: 150px;
-  margin-bottom: 50px;
+  position: absolute;
+  left: 37%;
+}
+
+.who {
+  margin-top: 200px;
 }
 
 .little {
@@ -64,14 +69,18 @@
 }
 
 .submit {
-  @include text1(18px, $color2);
-  text-align: center;
+  background-color: $color3;
+  @include text1(18px, $color1);
   display: flex;
+  justify-content: center;
   width: 400px;
   padding: 10px 10px;
-  margin-bottom: 30px;
   border-style: none;
   border-radius: 60px 60px 140px 140px;
+
+  &:hover {
+    background-color: $color4;
+  }
 }
 
 textarea {

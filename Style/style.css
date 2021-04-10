@@ -73,7 +73,12 @@ a:hover {
 
 .marceloface {
   width: 150px;
-  margin-bottom: 50px;
+  position: absolute;
+  left: 37%;
+}
+
+.who {
+  margin-top: 200px;
 }
 
 .little {
@@ -125,17 +130,23 @@ a:hover {
 }
 
 .submit {
+  background-color: #242d35c0;
   font: 18px "Rajdhani", sans-serif;
-  color: #272727;
-  text-align: center;
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 400px;
   padding: 10px 10px;
-  margin-bottom: 30px;
   border-style: none;
   border-radius: 60px 60px 140px 140px;
+}
+
+.submit:hover {
+  background-color: #080d136b;
 }
 
 textarea {
@@ -196,6 +207,7 @@ h3 {
 }
 
 .vertical {
+  position: relative;
   width: 600px;
   padding: 0px 50px;
   margin-top: 60px;
@@ -204,10 +216,19 @@ h3 {
 
 .logo {
   width: 250px;
-  margin-left: 170px;
+  position: absolute;
+  left: 32%;
 }
 
-h1,
+h1 {
+  font: 30px "Rajdhani", sans-serif;
+  color: #272727;
+  text-align: center;
+  margin-top: 70px;
+  margin-top: 220px;
+  margin-bottom: 30px;
+}
+
 h4,
 h5 {
   font: 30px "Rajdhani", sans-serif;
