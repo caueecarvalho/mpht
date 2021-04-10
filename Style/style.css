@@ -11,7 +11,7 @@ body {
 nav {
   width: auto;
   height: 40px;
-  background-color: #8eafcadc;
+  background-color: #8eafcac0;
 }
 
 .horizontal {
@@ -29,14 +29,53 @@ nav {
 .appointment {
   background-color: #5b80a36b;
   width: 40px;
+  position: relative;
+}
+
+.aboutmarcelo {
+  position: fixed;
+  top: 65px;
+  left: 100px;
+  width: 500px;
+  padding: 0px 60px 60px 60px;
+  display: none;
+}
+
+.marceloface {
+  width: 150px;
+  margin-bottom: 50px;
+}
+
+.little {
+  font: 18px "Rajdhani", sans-serif;
+  color: #000;
+  margin-bottom: 30px;
+  text-align: justify;
 }
 
 .about:hover {
   width: 1000px;
 }
 
+.about:hover .aboutmarcelo {
+  display: block;
+}
+
+.aboutappointment {
+  position: fixed;
+  top: 65px;
+  right: 100px;
+  width: 500px;
+  padding: 0px 60px 60px 60px;
+  display: none;
+}
+
 .appointment:hover {
   width: 1000px;
+}
+
+.appointment:hover .aboutappointment {
+  display: block;
 }
 
 h2,
@@ -58,7 +97,7 @@ h3 {
   text-align: center;
   position: fixed;
   top: 35%;
-  background-color: #8eafcadc;
+  background-color: #8eafcac0;
 }
 
 h2 {
@@ -72,7 +111,7 @@ h3 {
 }
 
 .vertical {
-  width: 630px;
+  width: 600px;
   padding: 0px 50px;
   margin-top: 60px;
   margin-bottom: 80px;
@@ -102,7 +141,7 @@ p {
 
 footer {
   height: 60px;
-  background-color: #8eafcadc;
+  background-color: #8eafcac0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

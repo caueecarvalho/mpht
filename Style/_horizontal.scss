@@ -9,17 +9,52 @@
 .appointment {
   background-color: $color4;
   width: 40px;
+  position: relative;
+}
+
+.aboutmarcelo {
+  position: fixed;
+  top: 65px;
+  left: 100px;
+  width: 500px;
+  padding: 0px 60px 60px 60px;
+  display: none;
+}
+.marceloface {
+  width: 150px;
+  margin-bottom: 50px;
+}
+
+.little {
+  @include text1(18px, $color2);
+  margin-bottom: 30px;
+  text-align: justify;
 }
 
 .about {
   &:hover {
     width: 1000px;
+    .aboutmarcelo {
+      display: block;
+    }
   }
+}
+
+.aboutappointment {
+  position: fixed;
+  top: 65px;
+  right: 100px;
+  width: 500px;
+  padding: 0px 60px 60px 60px;
+  display: none;
 }
 
 .appointment {
   &:hover {
     width: 1000px;
+    .aboutappointment {
+      display: block;
+    }
   }
 }
 
