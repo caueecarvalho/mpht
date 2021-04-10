@@ -9,12 +9,21 @@ body {
 }
 
 nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: auto;
   height: 40px;
   background-color: #242d35c0;
+  position: relative;
 }
 
 .languages {
+  position: absolute;
+  right: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,6 +35,13 @@ a {
   color: #fff;
   text-decoration: none;
   margin-left: 10px;
+  padding: 2px 6px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #272727;
+  border-radius: 10px 14px 12px 26px;
 }
 
 .horizontal {
@@ -42,7 +58,7 @@ a {
 .about,
 .appointment {
   background-color: #080d136b;
-  width: 40px;
+  width: 20px;
   position: relative;
 }
 
