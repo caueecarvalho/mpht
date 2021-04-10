@@ -1,0 +1,91 @@
+@media (max-width: 1180px) {
+  .vertical {
+    width: 500px;
+  }
+
+  .aboutmarcelo {
+    width: 350px;
+  }
+
+  .aboutappointment {
+    width: 450px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    width: 150px;
+  }
+  .vertical {
+    width: 350px;
+  }
+  .aboutmarcelo {
+    width: 350px;
+  }
+  .aboutappointment {
+    width: 400px;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo {
+    width: 150px;
+  }
+  .vertical {
+    width: 350px;
+  }
+  .aboutmarcelo {
+    width: 300px;
+  }
+  .aboutappointment {
+    width: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    width: 150px;
+  }
+  .vertical {
+    width: 350px;
+  }
+  .aboutmarcelo {
+    width: 280px;
+  }
+
+  .little {
+    font-size: 15px;
+  }
+
+  .aboutappointment {
+    width: 300px;
+  }
+
+  .info {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 780px) {
+  .logo {
+    width: 150px;
+  }
+  .vertical {
+    width: 350px;
+  }
+  .aboutmarcelo {
+    width: 220px;
+  }
+
+  .little {
+    font-size: 13px;
+  }
+
+  .aboutappointment {
+    width: 250px;
+  }
+
+  .info {
+    font-size: 13px;
+  }
+}
