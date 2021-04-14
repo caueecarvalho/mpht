@@ -60,6 +60,8 @@ a:hover {
   background-color: #080d136b;
   width: 20px;
   position: relative;
+  -webkit-box-shadow: 2px 1px 7px 2px rgba(0, 0, 0, 0.34);
+          box-shadow: 2px 1px 7px 2px rgba(0, 0, 0, 0.34);
 }
 
 .aboutmarcelo {
@@ -215,9 +217,9 @@ h3 {
 }
 
 .logo {
-  width: 250px;
+  width: 180px;
   position: absolute;
-  left: 32%;
+  left: 37%;
 }
 
 h1 {
