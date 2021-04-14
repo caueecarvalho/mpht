@@ -24,7 +24,7 @@ h4,
 h5 {
   @include text1(30px, $color2);
   text-align: center;
-  margin-top: 70px;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 
@@ -32,4 +32,17 @@ p {
   @include text1(20px, $color2);
   margin-bottom: 30px;
   text-align: justify;
+}
+
+.first {
+  background-color: $color5;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 200px 180px 220px 140px;
+}
+
+.second {
+  background-color: $color6;
+  padding: 20px;
+  border-radius: 200px 230px 300px 280px;
 }
