@@ -234,7 +234,8 @@ h1 {
 }
 
 h4,
-h5 {
+h5,
+h6 {
   font: 30px "Rajdhani", sans-serif;
   color: #272727;
   text-align: center;
@@ -252,14 +253,23 @@ p {
 .first {
   background-color: #a2becec2;
   padding: 20px;
-  margin-bottom: 30px;
+  margin-top: 90px;
+  margin-bottom: 50px;
   border-radius: 200px 180px 220px 140px;
 }
 
 .second {
   background-color: #e7b09ac9;
   padding: 20px;
+  margin-bottom: 50px;
   border-radius: 200px 230px 300px 280px;
+}
+
+.third {
+  background-color: #9fb1bba9;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 200px 180px 180px 140px;
 }
 
 footer {
