@@ -5,6 +5,15 @@ window.onload = function () {
 
 function readInfo (){
     let name = document.querySelector ('.name')
-    console.log (name)
+    let mail = document.querySelector ('.email')
+    let phone = document.querySelector ('.phone')
+    let message = document.querySelector ('.message')
+
+    
+
+
 }
+
+
+
 
