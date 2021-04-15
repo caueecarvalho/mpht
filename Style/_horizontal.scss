@@ -58,7 +58,9 @@
   display: none;
 }
 
-.info {
+.name,
+.email,
+.phone {
   @include text1(18px, $color2);
   text-align: center;
   display: flex;
@@ -84,7 +86,7 @@
   }
 }
 
-textarea {
+.message {
   @include text1(18px, $color2);
   text-align: center;
   display: flex;
