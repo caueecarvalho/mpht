@@ -16,8 +16,10 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   width: auto;
-  height: 60px;
+  height: 50px;
   background-color: #22313dea;
+  -webkit-box-shadow: -1px 2px 4px -2px rgba(0, 0, 0, 0.75);
+          box-shadow: -1px 2px 4px -2px rgba(0, 0, 0, 0.75);
   position: relative;
 }
 
@@ -58,7 +60,7 @@ a:hover {
 .about,
 .appointment {
   background-color: #38241c86;
-  width: 20px;
+  width: 0px;
   position: relative;
   -webkit-box-shadow: 2px 1px 7px 2px rgba(0, 0, 0, 0.34);
           box-shadow: 2px 1px 7px 2px rgba(0, 0, 0, 0.34);
@@ -287,78 +289,6 @@ footer {
   }
   .aboutappointment {
     width: 450px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .logo {
-    width: 150px;
-  }
-  .vertical {
-    width: 350px;
-  }
-  .aboutmarcelo {
-    width: 350px;
-  }
-  .aboutappointment {
-    width: 400px;
-  }
-}
-
-@media (max-width: 900px) {
-  .logo {
-    width: 150px;
-  }
-  .vertical {
-    width: 350px;
-  }
-  .aboutmarcelo {
-    width: 300px;
-  }
-  .aboutappointment {
-    width: 400px;
-  }
-}
-
-@media (max-width: 800px) {
-  .logo {
-    width: 150px;
-  }
-  .vertical {
-    width: 350px;
-  }
-  .aboutmarcelo {
-    width: 280px;
-  }
-  .little {
-    font-size: 15px;
-  }
-  .aboutappointment {
-    width: 300px;
-  }
-  .info {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 780px) {
-  .logo {
-    width: 150px;
-  }
-  .vertical {
-    width: 350px;
-  }
-  .aboutmarcelo {
-    width: 220px;
-  }
-  .little {
-    font-size: 13px;
-  }
-  .aboutappointment {
-    width: 250px;
-  }
-  .info {
-    font-size: 13px;
   }
 }
 /*# sourceMappingURL=style.css.map */
