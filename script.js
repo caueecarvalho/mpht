@@ -9,7 +9,15 @@ function readInfo (){
     let phone = document.querySelector ('.phone')
     let message = document.querySelector ('.message')
 
-    
+    fetch ('URL', {
+     method: 'post',
+     body:{
+         name: name.value,
+         mail: mail.value,
+         phone: phone.value,
+         message: message.value
+     }
+     })
 
 
 }
