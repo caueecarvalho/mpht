@@ -278,7 +278,7 @@
   h4,
   h5,
   h6 {
-    @include text1(20px, $color2);
+    @include text1(18px, $color2);
   }
 
   p {
@@ -299,6 +299,27 @@
 
   .aboutappointment {
     width: 200px;
+  }
+
+  .name,
+  .email,
+  .phone,
+  .message {
+    width: 180px;
+    @include text1(12px, $color2);
+    padding: 4px;
+  }
+
+  .submit {
+    width: 180px;
+    @include text1(12px, $color1);
+    padding: 4px;
+  }
+}
+
+@media (max-width: 620px) {
+  .vertical {
+    width: 250px;
   }
 
   .name,

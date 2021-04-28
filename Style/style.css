@@ -542,7 +542,7 @@ footer {
   h4,
   h5,
   h6 {
-    font: 20px "Rajdhani", sans-serif;
+    font: 18px "Rajdhani", sans-serif;
     color: #272727;
   }
   p {
@@ -561,6 +561,27 @@ footer {
   }
   .aboutappointment {
     width: 200px;
+  }
+  .name,
+  .email,
+  .phone,
+  .message {
+    width: 180px;
+    font: 12px "Rajdhani", sans-serif;
+    color: #272727;
+    padding: 4px;
+  }
+  .submit {
+    width: 180px;
+    font: 12px "Rajdhani", sans-serif;
+    color: #fff;
+    padding: 4px;
+  }
+}
+
+@media (max-width: 620px) {
+  .vertical {
+    width: 250px;
   }
   .name,
   .email,
