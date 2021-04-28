@@ -7,7 +7,179 @@
     width: 350px;
   }
 
+  .little {
+    @include text1(16px, $color1);
+  }
+
   .aboutappointment {
     width: 450px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .vertical {
+    width: 500px;
+  }
+
+  .aboutmarcelo {
+    width: 350px;
+  }
+
+  .aboutappointment {
+    width: 400px;
+  }
+}
+
+@media (max-width: 940px) {
+  .vertical {
+    width: 500px;
+  }
+
+  .aboutmarcelo {
+    width: 350px;
+  }
+
+  .little {
+    @include text1(15px, $color1);
+  }
+
+  .aboutappointment {
+    width: 350px;
+  }
+}
+
+@media (max-width: 900px) {
+  .vertical {
+    width: 500px;
+  }
+
+  .aboutmarcelo {
+    width: 300px;
+  }
+
+  .aboutappointment {
+    width: 350px;
+  }
+}
+
+@media (max-width: 860px) {
+  .vertical {
+    width: 500px;
+  }
+
+  .aboutmarcelo {
+    width: 300px;
+  }
+  .little {
+    @include text1(14px, $color1);
+  }
+
+  .aboutappointment {
+    width: 300px;
+  }
+}
+
+@media (max-width: 830px) {
+  h2,
+  h3 {
+    @include text1(16px, $color1);
+    width: 120px;
+    height: 120px;
+  }
+  .vertical {
+    width: 500px;
+  }
+
+  .aboutmarcelo {
+    width: 250px;
+  }
+
+  .aboutappointment {
+    width: 300px;
+  }
+}
+
+@media (max-width: 790px) {
+  .vertical {
+    width: 500px;
+  }
+
+  .aboutmarcelo {
+    width: 250px;
+  }
+
+  .aboutappointment {
+    width: 250px;
+  }
+
+  .name,
+  .email,
+  .phone,
+  .submit,
+  .message {
+    width: 250px;
+  }
+}
+
+@media (max-width: 760px) {
+  .vertical {
+    width: 500px;
+  }
+
+  .aboutmarcelo {
+    width: 250px;
+  }
+
+  .aboutappointment {
+    width: 250px;
+  }
+
+  .name,
+  .email,
+  .phone,
+  .submit,
+  .message {
+    width: 250px;
+  }
+}
+
+@media (max-width: 740px) {
+  .vertical {
+    width: 380px;
+  }
+
+  h1,
+  h4,
+  h5,
+  h6 {
+    @include text1(25px, $color2);
+  }
+
+  p {
+    @include text1(18px, $color2);
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .aboutmarcelo {
+    width: 200px;
+  }
+
+  .little {
+    @include text1(12px, $color1);
+  }
+
+  .aboutappointment {
+    width: 200px;
+  }
+
+  .name,
+  .email,
+  .phone,
+  .submit,
+  .message {
+    width: 250px;
   }
 }
